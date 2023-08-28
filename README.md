@@ -7,6 +7,7 @@ The offical codebase for [Difformer: Empowering Diffusion Models on the Embeddin
 Our implementation is based on Python 3.8, PyTorch 1.11 and Fairseq 0.10.2. The following command will install the dependencies and this package in a Conda environment:
 
 ```shell
+conda create -n difformer python=3.8
 conda install pytorch==1.11.0 -c pytorch
 pip install -e .
 ```
