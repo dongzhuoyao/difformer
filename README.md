@@ -9,6 +9,7 @@ Our implementation is based on Python 3.8, PyTorch 1.11 and Fairseq 0.10.2. The 
 ```shell
 conda create -n difformer python=3.8
 pip install torch==1.11.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -U git+https://github.com/pltrdy/pyrouge
 pip install -e .
 ```
 
