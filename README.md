@@ -8,8 +8,7 @@ Our implementation is based on Python 3.8, PyTorch 1.11 and Fairseq 0.10.2. The 
 
 ```shell
 conda create -n difformer python=3.8
-conda install pytorch cudatoolkit=11.3 -c pytorch -c nvidia
-conda install pytorch==1.11.0 -c pytorch
+pip install torch==1.11.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -e .
 ```
 
